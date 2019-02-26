@@ -27,7 +27,7 @@ markdown: kramdown
 theme: jekyll-theme-hyde
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
+  # - jekyll-sitemap
 
 # this is used for generating the individual bibtex pages
 page_gen:
