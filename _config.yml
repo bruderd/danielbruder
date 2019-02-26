@@ -17,7 +17,7 @@ title: Daniel Bruder
 email: bruderd@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website for Daniel Bruder.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://danielbruder.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: danielkbruder
 github_username:  bruderd
