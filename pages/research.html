@@ -1,0 +1,40 @@
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+{% assign counter = true %}
+
+{% for project in site.data.research %}
+<div class="container">
+  <h3>{{ project.name }}</h3>
+  <br/>
+  <div class="row">
+    {% if counter %}
+      {% assign counter = false %}
+      <div class="col">
+        <p>
+          {{ project.description }}
+          {% if project.video %}[<a href="{{ project.video }}" target="_blank">video</a>]{% endif %}
+        </p>
+      </div>
+      <div class="col">
+        <img src="/assets/images/{{ project.image }}" alt="project.image">
+      </div>
+    {% else %}
+      {% assign counter = true %}
+      <div class="col">
+        <img src="/assets/images/{{ project.image }}" alt="project.image">
+      </div>
+      <div class="col">
+        <p>
+          {{ project.description }}
+          {% if project.video %}[<a href="{{ project.video }}" target="_blank">video</a>]{% endif %}
+        </p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+<hr>
+{% endfor %}

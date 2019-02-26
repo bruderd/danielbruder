@@ -1,0 +1,19 @@
+---
+layout: page
+title: Teaching
+permalink: /teaching/
+---
+
+<div class="container">
+
+<!-- Teaching Positions -->
+{% for job in site.data.teaching %}
+  <h3>{{ job.position }} ({{ job.date }})</h3>
+  <div class="container">
+    <h4>{{ job.course }}</h4>
+    <h4>{{ job.dept }}, {{ job.institution }}</h4>
+    <p>{{ job.description }} {% if job.video %}[<a href="{{ job.video }}">video</a>]{% endif %}</p>
+  </div>
+{% endfor %}
+
+</div>
