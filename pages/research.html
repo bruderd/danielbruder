@@ -13,21 +13,21 @@ permalink: /research/
   <div class="row">
     {% if counter %}
       {% assign counter = false %}
-      <div class="col">
+      <div class="col-md-6">
         <p>
           {{ project.description }}
           {% if project.video %}[<a href="{{ project.video }}" target="_blank">video</a>]{% endif %}
         </p>
       </div>
-      <div class="col">
+      <div class="col-md-6">
         <img src="/assets/images/{{ project.image }}" alt="project.image">
       </div>
     {% else %}
       {% assign counter = true %}
-      <div class="col">
+      <div class="col-md-6">
         <img src="/assets/images/{{ project.image }}" alt="project.image">
       </div>
-      <div class="col">
+      <div class="col-md-6">
         <p>
           {{ project.description }}
           {% if project.video %}[<a href="{{ project.video }}" target="_blank">video</a>]{% endif %}
