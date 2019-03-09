@@ -93,6 +93,9 @@ html {
   font-family: "Abril Fatface", serif;
   font-size: 1.35rem;
 }
+.sidebar-about p {
+  text-align: center;
+}
 
 /* Sidebar nav */
 .sidebar-nav {
