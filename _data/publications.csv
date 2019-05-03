@@ -41,14 +41,14 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex
 }"""
 "D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,mwrw2018,Model-Based Control of Parallel Combinations of Soft Actuators,Midwest Robotics Workshop (poster),2018,04_Presentation,,,
 "D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,srmc2018,Model-Based Method for Estimating the Workspace of Soft Manipulators,Workshop on Soft Robot Modeling and Control at IROS,2018,04_Presentation,,,
-"D. Bruder, C. D. Remy, R. Vasudevan",TRUE,icra2019,Nonlinear System Identification of Soft Robot Dynamics Using Koopman Operator Theory,ICRA 2019 (accepted),2018,03_Preprint,https://arxiv.org/pdf/1810.06637.pdf,https://youtu.be/f63M8kvTyPY,"""@article{bruder2018nonlinear,
+"D. Bruder, C. D. Remy, R. Vasudevan",TRUE,icra2019,Nonlinear System Identification of Soft Robot Dynamics Using Koopman Operator Theory,IEEE Conference on Robotics and Automation (ICRA) (accepted),2019,03_Preprint,https://arxiv.org/pdf/1810.06637.pdf,https://youtu.be/f63M8kvTyPY,"""@article{bruder2018nonlinear,
   title={Nonlinear system identification of soft robot dynamics using koopman operator theory},
   author={Bruder, Daniel and Remy, C David and Vasudevan, Ram},
   journal={arXiv preprint arXiv:1810.06637},
   year={2018}
 }"""
 "T. Y. Moore, D. Bruder, A. Davis Rabosky, R. Vasudeven",TRUE,sicb2019,Decoupling Coupled Anti-Predator Signals with a Bio-Inspired Snake Robot,Society for Integrative and Comparative Biology Annual Meeting,2019,04_Presentation,,,
-"D. Bruder, R.B. Gillespie, C. D. Remy, R. Vasudevan",TRUE,rss2019,Modeling and Control of Soft Robots Using the Koopman Operator and Model Predictive Control,Under Review,2019,03_Preprint,https://arxiv.org/pdf/1902.02827.pdf,https://youtu.be/e35o2OPsQHs,"""@article{bruder2019modeling,
+"D. Bruder, R.B. Gillespie, C. D. Remy, R. Vasudevan",TRUE,rss2019,Modeling and Control of Soft Robots Using the Koopman Operator and Model Predictive Control,Robotics: Science and Systems (accepted),2019,03_Preprint,https://arxiv.org/pdf/1902.02827.pdf,https://youtu.be/e35o2OPsQHs,"""@article{bruder2019modeling,
   title={Modeling and Control of Soft Robots Using the Koopman Operator and Model Predictive Control},
   author={Bruder, Daniel and Gillespie, Brent and Remy, C David and Vasudevan, Ram},
   journal={arXiv preprint arXiv:1902.02827},
