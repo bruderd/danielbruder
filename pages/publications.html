@@ -7,19 +7,24 @@ permalink: /publications/
 
 <div class="container">
 
-  <h4>Preprints</h4>
-  <ul>
-    {% for paper in site.data.publications reversed %}
-      {% if paper.Type == "03_Preprint" %}
-        {% assign bibtexLoc = page.url | append: "bibtex/" | append: paper.Tag %}
-        <li> {{ paper.Authors }}. "{{ paper.Title }}". <i> {{ paper.Publication }}. </i> {{ paper.Year }}.
-          {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
-          {% if paper.bibtex %} [<a href="{{ bibtexLoc }}">bibtex</a>]{% endif %}
-          {% if paper.video %} [<a href="{{ paper.video }}" target="_blank">video</a>]{% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  {% assign showpreprints = true %}
+  {% for paper in site.data.publications reversed %}
+  {% if paper.Type == "03_Preprint" %}
+    {% if showpreprints %}
+      <h4>Preprints</h4>
+      {% assign showpreprints = false %}
+    {% endif %}
+    <ul>
+      {% assign bibtexLoc = page.url | append: "bibtex/" | append: paper.Tag %}
+      <li> {{ paper.Authors }}. "{{ paper.Title }}". <i> {{ paper.Publication }}. </i> {{ paper.Year }}.
+        {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
+        {% if paper.bibtex %} [<a href="{{ bibtexLoc }}">bibtex</a>]{% endif %}
+        {% if paper.video %} [<a href="{{ paper.video }}" target="_blank">video</a>]{% endif %}
+        {% if paper.award %} <b> *{{ paper.award }} </b> {% endif %}
+      </li>
+    </ul>
+  {% endif %}
+  {% endfor %}
 
   <h4>Journal Papers</h4>
   <ul>
@@ -30,6 +35,7 @@ permalink: /publications/
           {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
           {% if paper.bibtex %} [<a href="{{ bibtexLoc }}">bibtex</a>]{% endif %}
           {% if paper.video %} [<a href="{{ paper.video }}" target="_blank">video</a>]{% endif %}
+          {% if paper.award %} <b> *{{ paper.award }} </b> {% endif %}
         </li>
       {% endif %}
     {% endfor %}
@@ -44,6 +50,7 @@ permalink: /publications/
           {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
           {% if paper.bibtex %} [<a href="{{ bibtexLoc }}">bibtex</a>]{% endif %}
           {% if paper.video %} [<a href="{{ paper.video }}" target="_blank">video</a>]{% endif %}
+          {% if paper.award %} <b> *{{ paper.award }} </b> {% endif %}
         </li>
       {% endif %}
     {% endfor %}
@@ -58,6 +65,7 @@ permalink: /publications/
           {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
           {% if paper.bibtex %} [<a href="{{ bibtexLoc }}">bibtex</a>]{% endif %}
           {% if paper.video %} [<a href="{{ paper.video }}" target="_blank">video</a>]{% endif %}
+          {% if paper.award %} <b> *{{ paper.award }} </b> {% endif %}
         </li>
       {% endif %}
     {% endfor %}
