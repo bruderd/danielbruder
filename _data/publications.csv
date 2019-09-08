@@ -57,3 +57,4 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award
     MONTH = {June}, 
     DOI = {10.15607/RSS.2019.XV.060} 
 }""","Best Systems Paper Finalist, Best Student Paper Finalist"
+"D. Bruder, R. Vasudevan",TRUE,pioneers2019,Leveraging Data to Model and Control Soft Robots,Robotics: Science and Systems Pioneers,2019,04_Presentation,,,,
