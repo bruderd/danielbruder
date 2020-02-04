@@ -12,7 +12,7 @@ permalink: /publications/
 
   {% assign showpreprints = true %}
   {% for paper in site.data.publications reversed %}
-  {% if paper.Type == "03_Preprint" %}
+  {% if paper.Type == "03_Preprint" and paper.Show == "TRUE" %}
     {% if showpreprints %}
       <h4>Preprints</h4>
       {% assign showpreprints = false %}
@@ -32,7 +32,7 @@ permalink: /publications/
   <h4>Journal Papers</h4>
   <ul>
     {% for paper in site.data.publications reversed %}
-      {% if paper.Type == "01_Journal" %}
+      {% if paper.Type == "01_Journal" and paper.Show == "TRUE" %}
         {% assign bibtexLoc = page.url | append: "bibtex/" | append: paper.Tag %}
         <li> {{ paper.Authors }}. "{{ paper.Title }}". <i> {{ paper.Publication }}. </i> {{ paper.Year }}.
           {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
@@ -47,7 +47,7 @@ permalink: /publications/
   <h4>Conference Papers</h4>
   <ul>
     {% for paper in site.data.publications reversed %}
-      {% if paper.Type == "02_Conference" %}
+      {% if paper.Type == "02_Conference" and paper.Show == "TRUE" %}
         {% assign bibtexLoc = page.url | append: "bibtex/" | append: paper.Tag %}
         <li> {{ paper.Authors }}. "{{ paper.Title }}". <i> {{ paper.Publication }}. </i> {{ paper.Year }}.
           {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
@@ -62,7 +62,7 @@ permalink: /publications/
   <h4>Workshop and Meeting Presentations</h4>
   <ul>
     {% for paper in site.data.publications reversed %}
-      {% if paper.Type == "04_Presentation" %}
+      {% if paper.Type == "04_Presentation" and paper.Show == "TRUE" %}
       {% assign bibtexLoc = page.url | append: "bibtex/" | append: paper.Tag %}
         <li> {{ paper.Authors }}. "{{ paper.Title }}". <i> {{ paper.Publication }}. </i> {{ paper.Year }}.
           {% if paper.url %} [<a href="{{ paper.url }}" target="_blank">pdf</a>]{% endif %}
