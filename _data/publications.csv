@@ -60,4 +60,4 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award
 "D. Bruder, R. Vasudevan",TRUE,pioneers2019,Leveraging Data to Model and Control Soft Robots,Robotics: Science and Systems Pioneers,2019,04_Presentation,,,,
 D. Bruder,TRUE,towner2019,Modeling and Control of Soft Robots Using the Koopman Operator,"Engineering Research Symposium, University of Michigan",2019,04_Presentation,,,,
 "S.M. Danforth, M. Kohler, D. Bruder, A.R. Davis Rabosky, and T.Y. Moore",TRUE,icra2019,Emulating Duration and Curvature of Coral Snake Anti-predator Thrashing Behaviors Using a Soft-robotic Platform,IEEE Conference on Robotics and Automation (ICRA) (Accepted),2019,02_Conference,,,,
-"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",FALSE,rss2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,(arXiv preprint),2020,03_Preprint,,,,
+"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,rss2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,(arXiv preprint),2020,03_Preprint,https://arxiv.org/pdf/2002.01407.pdf,https://youtu.be/g2yRUoPK40c,,
