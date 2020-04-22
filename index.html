@@ -25,8 +25,19 @@ title: About Me
   <li> Member of <a href="http://www.roahmlab.com/" target="_blank">ROAHM Lab</a>, University of Michigan </li>
   <li> Member of the <a href="http://csdl.engin.umich.edu/" target="_blank">Compliant Systems Design Lab</a>, University of Michigan </li>
   <li> Former member of RAM Lab, University of Michigan </li>
-  <li> Former teacher at <a href="https://www.jrladetroit.com/">Jalen Rose Leadership Academy</a> </li>
+  <li> Former teacher at <a href="https://www.jrladetroit.com/" target="_blank">Jalen Rose Leadership Academy</a> </li>
   <li> Former member of the <a href="http://biorobotics.harvard.edu/" target="_blank">Harvard Biorobotics Lab</a>, Harvard University </li>
 </ul>
+
+<h3>News</h3>
+  <ul>
+  {% for event in site.data.news reversed %}
+  {% if event.Show == "TRUE" %}
+    <li> <b>{{event.title}}</b> ({{event.date}}) <br> {{event.description}}
+         {% if event.link %} [<a href="{{ event.link }}" target="_blank">{{event.linktext}}</a>] {% endif %}
+         {% if event.link2 %} [<a href="{{ event.link2 }}" target="_blank">{{event.linktext2}}</a>] {% endif %}
+  {% endif %}
+  {% endfor %}
+  </ul>
 
 </div>

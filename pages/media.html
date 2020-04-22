@@ -24,7 +24,7 @@ permalink: /media/
       <iframe class="embed-responsive-item" src="{{ slide.Location }}" allowfullscreen></iframe>
     </div>
     <div>
-      <p>{{ slide.description }}</p>
+      <p>{{ slide.description }} {% if slide.link %} [<a href="{{ slide.link }}" target="_blank">{{slide.linktext}}</a>] {% endif %}</p>
     </div>
   </div>
   {% endif %}
