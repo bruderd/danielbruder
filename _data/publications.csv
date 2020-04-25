@@ -1,5 +1,5 @@
-Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award
-,FALSE,index,,,,,,,,
+Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award,category
+,FALSE,index,,,,,,,,,
 "A. Sedal, D. Bruder, J. Bishop-Moser, R. Vasudevan, and S. Kota",TRUE,idetc2017,A Constitutive Model for Torsional Loads on Fluid-Driven Soft Robots ,ASME International Design Engineering Technical Conferences (IDETC),2017,02_Conference,http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2662191,,"""@inproceedings{sedal2017constitutive,
   title={A constitutive model for torsional loads on fluid-driven soft robots},
   author={Sedal, Audrey and Bruder, Daniel and Bishop-Moser, Joshua and Vasudevan, Ram and Kota, Sridhar},
@@ -7,18 +7,18 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award
   pages={V05AT08A016--V05AT08A016},
   year={2017},
   organization={American Society of Mechanical Engineers}
-}""",
-"D. Bruderd, R. Vasudevan, and C.D. Remy",TRUE,tri2017,Design and Modeling of Soft Robotic Arm Modules,Toyota Research Institute Annual Meeting (poster),2017,04_Presentation,,,,
-"D. Bruder, A. Sedal, J. Bishop-Moser, S. Kota, and R. Vasudevan",TRUE,icra2017,Model Based Control of Fiber Reinforced Elastofluidic Enclosures,IEEE Conference on Robotics and Automation (ICRA),2017,02_Conference,https://ieeexplore.ieee.org/abstract/document/7989653,https://www.youtube.com/watch?v=awPEsqR4HII,"""@inproceedings{bruder2017model,
+}""",,
+"D. Bruderd, R. Vasudevan, and C.D. Remy",TRUE,tri2017,Design and Modeling of Soft Robotic Arm Modules,Toyota Research Institute Annual Meeting (poster),2017,04_Presentation,,,,,
+"D. Bruder, A. Sedal, J. Bishop-Moser, S. Kota, and R. Vasudevan",TRUE,ICRA2017,Model Based Control of Fiber Reinforced Elastofluidic Enclosures,IEEE Conference on Robotics and Automation (ICRA),2017,02_Conference,https://ieeexplore.ieee.org/abstract/document/7989653,https://www.youtube.com/watch?v=awPEsqR4HII,"""@inproceedings{bruder2017model,
   title={Model based control of fiber reinforced elastofluidic enclosures},
   author={Bruder, Daniel and Sedal, Audrey and Bishop-Moser, Joshua and Kota, Sridhar and Vasudevan, Ram},
   booktitle={2017 IEEE International Conference on Robotics and Automation (ICRA)},
   pages={5539--5544},
   year={2017},
   organization={IEEE}
-}""",
-"D. Bruder, A. Sedal, J. Bishop-Moser, S. Kota, and R. Vasudevan",TRUE,mwrw2017,Model Based Control of Fiber Reinforced Elastofluidic Enclosures,Midwest Robotics Workshop (poster),2017,04_Presentation,,,,
-"A. Sedal, D. Bruder, J. Bishop-Moser, R. Vasudevan, and S. Kota",TRUE,jmr2018,A Continuum Model for Fiber-Reinforced Soft Robot Actuators,Journal of Mechanisms and Robotics,2018,01_Journal,http://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2671216,,"""@article{sedal2018continuum,
+}""",,frees
+"D. Bruder, A. Sedal, J. Bishop-Moser, S. Kota, and R. Vasudevan",TRUE,mwrw2017,Model Based Control of Fiber Reinforced Elastofluidic Enclosures,Midwest Robotics Workshop (poster),2017,04_Presentation,,,,,
+"A. Sedal, D. Bruder, J. Bishop-Moser, R. Vasudevan, and S. Kota",TRUE,JMR2018,A Continuum Model for Fiber-Reinforced Soft Robot Actuators,Journal of Mechanisms and Robotics,2018,01_Journal,http://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2671216,,"""@article{sedal2018continuum,
   title={A Continuum Model for Fiber-Reinforced Soft Robot Actuators},
   author={Sedal, Audrey and Bruder, Daniel and Bishop-Moser, Joshua and Vasudevan, Ram and Kota, Sridhar},
   journal={Journal of Mechanisms and Robotics},
@@ -27,9 +27,9 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award
   pages={024501},
   year={2018},
   publisher={American Society of Mechanical Engineers}
-}""",
-"R. B. Gillespie, C. D. Remy, D. Bruder, A. Sedal",TRUE,tri2018,Don't Bite the Hand that Feeds You: Soft Robots For Eldercare,Toyota Research Institute Annual Meeting,2018,04_Presentation,,,,
-"D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,ral2018,Force Generation by Parallel Combinations of Fiber-Reinforced Fluid-Driven Actuators,IEEE Robotics and Automation Letters,2018,01_Journal,https://ieeexplore.ieee.org/document/8419270,,"""@article{bruder2018force,
+}""",,frees
+"R. B. Gillespie, C. D. Remy, D. Bruder, A. Sedal",TRUE,tri2018,Don't Bite the Hand that Feeds You: Soft Robots For Eldercare,Toyota Research Institute Annual Meeting,2018,04_Presentation,,,,,
+"D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,RAL2018,Force Generation by Parallel Combinations of Fiber-Reinforced Fluid-Driven Actuators,IEEE Robotics and Automation Letters,2018,01_Journal,https://ieeexplore.ieee.org/document/8419270,,"""@article{bruder2018force,
   title={Force generation by parallel combinations of fiber-reinforced fluid-driven actuators},
   author={Bruder, Daniel and Sedal, Audrey and Vasudevan, Ram and Remy, C David},
   journal={IEEE Robotics and Automation Letters},
@@ -38,17 +38,17 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award
   pages={3999--4006},
   year={2018},
   publisher={IEEE}
-}""",
-"D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,mwrw2018,Model-Based Control of Parallel Combinations of Soft Actuators,Midwest Robotics Workshop (poster),2018,04_Presentation,,,,
-"D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,srmc2018,Model-Based Method for Estimating the Workspace of Soft Manipulators,Workshop on Soft Robot Modeling and Control at IROS,2018,04_Presentation,,,,
-"D. Bruder, C. D. Remy, and R. Vasudevan",TRUE,icra2019,Nonlinear System Identification of Soft Robot Dynamics Using Koopman Operator Theory,IEEE Conference on Robotics and Automation (ICRA),2019,02_Conference,https://ieeexplore.ieee.org/document/8793766,https://youtu.be/f63M8kvTyPY,"""@article{bruder2018nonlinear,
+}""",,frees
+"D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,mwrw2018,Model-Based Control of Parallel Combinations of Soft Actuators,Midwest Robotics Workshop (poster),2018,04_Presentation,,,,,
+"D. Bruder, A. Sedal, R. Vasudevan, and C. D. Remy",TRUE,srmc2018,Model-Based Method for Estimating the Workspace of Soft Manipulators,Workshop on Soft Robot Modeling and Control at IROS,2018,04_Presentation,,,,,
+"D. Bruder, C. D. Remy, and R. Vasudevan",TRUE,ICRA2019,Nonlinear System Identification of Soft Robot Dynamics Using Koopman Operator Theory,IEEE Conference on Robotics and Automation (ICRA),2019,02_Conference,https://ieeexplore.ieee.org/document/8793766,https://youtu.be/f63M8kvTyPY,"""@article{bruder2018nonlinear,
   title={Nonlinear system identification of soft robot dynamics using koopman operator theory},
   author={Bruder, Daniel and Remy, C David and Vasudevan, Ram},
   journal={arXiv preprint arXiv:1810.06637},
   year={2018}
-}""",
-"T. Y. Moore, D. Bruder, A. Davis Rabosky, and R. Vasudeven",TRUE,sicb2019,Decoupling Coupled Anti-Predator Signals with a Bio-Inspired Snake Robot,Society for Integrative and Comparative Biology Annual Meeting,2019,04_Presentation,,,,
-"D. Bruder, R.B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,rss2019,Modeling and Control of Soft Robots Using the Koopman Operator and Model Predictive Control,Robotics: Science and Systems,2019,02_Conference,https://arxiv.org/pdf/1902.02827.pdf,https://youtu.be/e35o2OPsQHs,"""@INPROCEEDINGS{Vasudevan-RSS-19, 
+}""",,koopsysid
+"T. Y. Moore, D. Bruder, A. Davis Rabosky, and R. Vasudeven",TRUE,sicb2019,Decoupling Coupled Anti-Predator Signals with a Bio-Inspired Snake Robot,Society for Integrative and Comparative Biology Annual Meeting,2019,04_Presentation,,,,,
+"D. Bruder, R.B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,RSS2019,Modeling and Control of Soft Robots Using the Koopman Operator and Model Predictive Control,Robotics: Science and Systems,2019,02_Conference,https://arxiv.org/pdf/1902.02827.pdf,https://youtu.be/e35o2OPsQHs,"""@INPROCEEDINGS{Vasudevan-RSS-19, 
     AUTHOR = {Daniel Bruder AND Brent Gillespie AND C. David Remy AND Ram Vasudevan}, 
     TITLE = {Modeling and Control of Soft Robots Using the Koopman Operator and Model Predictive Control}, 
     BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
@@ -56,8 +56,8 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award
     ADDRESS = {FreiburgimBreisgau, Germany}, 
     MONTH = {June}, 
     DOI = {10.15607/RSS.2019.XV.060} 
-}""","Best Systems Paper Finalist, Best Student Paper Finalist"
-"D. Bruder, R. Vasudevan",TRUE,pioneers2019,Leveraging Data to Model and Control Soft Robots,Robotics: Science and Systems Pioneers,2019,04_Presentation,,,,
-D. Bruder,TRUE,towner2019,Modeling and Control of Soft Robots Using the Koopman Operator,"Engineering Research Symposium, University of Michigan",2019,04_Presentation,,,,
-"S.M. Danforth, M. Kohler, D. Bruder, A.R. Davis Rabosky, S. Kota, R. Vasudevan, and T.Y. Moore",TRUE,icra2020,Emulating Duration and Curvature of Coral Snake Anti-predator Thrashing Behaviors Using a Soft-robotic Platform,IEEE Conference on Robotics and Automation (ICRA) (Accepted),2020,02_Conference,https://arxiv.org/pdf/2002.09577.pdf,https://youtu.be/wCZSd0FNb5Y,,
-"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,rss2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,(arXiv preprint),2020,03_Preprint,https://arxiv.org/pdf/2002.01407.pdf,https://youtu.be/g2yRUoPK40c,,
+}""","Best Systems Paper Finalist, Best Student Paper Finalist",koopcontrol
+"D. Bruder, R. Vasudevan",TRUE,pioneers2019,Leveraging Data to Model and Control Soft Robots,Robotics: Science and Systems Pioneers,2019,04_Presentation,,,,,
+D. Bruder,TRUE,towner2019,Modeling and Control of Soft Robots Using the Koopman Operator,"Engineering Research Symposium, University of Michigan",2019,04_Presentation,,,,,
+"S.M. Danforth, M. Kohler, D. Bruder, A.R. Davis Rabosky, S. Kota, R. Vasudevan, and T.Y. Moore",TRUE,ICRA2020,Emulating Duration and Curvature of Coral Snake Anti-predator Thrashing Behaviors Using a Soft-robotic Platform,IEEE Conference on Robotics and Automation (ICRA) (Accepted),2020,02_Conference,https://arxiv.org/pdf/2002.09577.pdf,https://youtu.be/wCZSd0FNb5Y,,,snakes
+"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,arXiv2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,(arXiv preprint),2020,03_Preprint,https://arxiv.org/pdf/2002.01407.pdf,https://youtu.be/g2yRUoPK40c,,,koopcontrol

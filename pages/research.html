@@ -16,7 +16,9 @@ permalink: /research/
       <div class="col-md-6">
         <p>
           {{ project.description }}
-          {% if project.video %}[<a href="{{ project.video }}" target="_blank">video</a>]{% endif %}
+          {% for paper in site.data.publications %}
+            {% if paper.category == project.category %}[<a href="{{ paper.url }}" target="_blank">{{ paper.Tag }}</a>]{% endif %}
+          {% endfor %}
         </p>
       </div>
       <div class="col-md-6">
@@ -30,7 +32,9 @@ permalink: /research/
       <div class="col-md-6">
         <p>
           {{ project.description }}
-          {% if project.video %}[<a href="{{ project.video }}" target="_blank">video</a>]{% endif %}
+          {% for paper in site.data.publications %}
+            {% if paper.category == project.category %}[<a href="{{ paper.url }}" target="_blank">{{ paper.Tag }}</a>]{% endif %}
+          {% endfor %}
         </p>
       </div>
     {% endif %}
