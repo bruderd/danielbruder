@@ -68,7 +68,7 @@ D. Bruder,TRUE,towner2019,Modeling and Control of Soft Robots Using the Koopman 
   number={},
   pages={5068-5074},
   doi={10.1109/ICRA40945.2020.9197549}}""",,snakes
-"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,arxiv2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,(arXiv preprint),2020,03_Preprint,https://arxiv.org/pdf/2002.01407.pdf,https://youtu.be/g2yRUoPK40c,,,koopcontrol
+"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,arxiv2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,IEEE Robotics and Automation Letters (Accepted),2021,03_Preprint,https://arxiv.org/pdf/2002.01407.pdf,https://youtu.be/g2yRUoPK40c,,,koopcontrol
 D. Bruder,TRUE,robosoft2020,Leveraging Data and the Koopman Operator to Build Control-oriented Models of Soft Robots,Modeling Soft Robots: A Discussion on Capabilites and Limitations of Numerous Techniques,2020,04_Presentation,,,,,
 "D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,tro2020,Data-driven Control of Soft Robots Using Koopman Operator Theory,IEEE Transactions on Robotics (TRO),2020,01_Journal,https://ieeexplore.ieee.org/document/9277915,https://www.youtube.com/watch?v=1-XSDGHKous,"""@ARTICLE{9277915,
   author={D. {Bruder} and X. {Fu} and R. B. {Gillespie} and C. D. {Remy} and R. {Vasudevan}},
