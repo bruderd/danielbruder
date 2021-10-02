@@ -1,5 +1,4 @@
 Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award,category
-,FALSE,index,,,,,,,,,
 "A. Sedal, D. Bruder, J. Bishop-Moser, R. Vasudevan, and S. Kota",TRUE,idetc2017,A Constitutive Model for Torsional Loads on Fluid-Driven Soft Robots ,ASME International Design Engineering Technical Conferences (IDETC),2017,02_Conference,http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2662191,,"""@inproceedings{sedal2017constitutive,
   title={A constitutive model for torsional loads on fluid-driven soft robots},
   author={Sedal, Audrey and Bruder, Daniel and Bishop-Moser, Joshua and Vasudevan, Ram and Kota, Sridhar},
@@ -59,7 +58,7 @@ Authors,Show,Tag,Title,Publication,Year,Type,url,video,bibtex,award,category
 }""","Best Systems Paper Finalist, Best Student Paper Finalist",koopcontrol
 "D. Bruder, R. Vasudevan",TRUE,pioneers2019,Leveraging Data to Model and Control Soft Robots,Robotics: Science and Systems Pioneers,2019,04_Presentation,,,,,
 D. Bruder,TRUE,towner2019,Modeling and Control of Soft Robots Using the Koopman Operator,"Engineering Research Symposium, University of Michigan",2019,04_Presentation,,,,,
-"S.M. Danforth, M. Kohler, D. Bruder, A.R. Davis Rabosky, S. Kota, R. Vasudevan, and T.Y. Moore",TRUE,icra2020,Emulating Duration and Curvature of Coral Snake Anti-predator Thrashing Behaviors Using a Soft-robotic Platform,IEEE Conference on Robotics and Automation (ICRA) (Accepted),2020,02_Conference,https://ieeexplore.ieee.org/document/9197549,https://youtu.be/wCZSd0FNb5Y,"""@INPROCEEDINGS{9197549,
+"S.M. Danforth, M. Kohler, D. Bruder, A.R. Davis Rabosky, S. Kota, R. Vasudevan, and T.Y. Moore",TRUE,icra2020,Emulating Duration and Curvature of Coral Snake Anti-predator Thrashing Behaviors Using a Soft-robotic Platform,IEEE Conference on Robotics and Automation (ICRA),2020,02_Conference,https://ieeexplore.ieee.org/document/9197549,https://youtu.be/wCZSd0FNb5Y,"""@INPROCEEDINGS{9197549,
   author={S. M. {Danforth} and M. {Kohler} and D. {Bruder} and A. R. D. {Rabosky} and S. {Kota} and R. {Vasudevan} and T. Y. {Moore}},
   booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
   title={Emulating duration and curvature of coral snake anti-predator thrashing behaviors using a soft-robotic platform}, 
@@ -68,7 +67,7 @@ D. Bruder,TRUE,towner2019,Modeling and Control of Soft Robots Using the Koopman 
   number={},
   pages={5068-5074},
   doi={10.1109/ICRA40945.2020.9197549}}""",,snakes
-"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,arxiv2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,IEEE Robotics and Automation Letters (Accepted),2021,03_Preprint,https://arxiv.org/pdf/2002.01407.pdf,https://youtu.be/g2yRUoPK40c,,,koopcontrol
+"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",FALSE,arxiv2020,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,IEEE Robotics and Automation Letters (Accepted),2021,03_Preprint,https://arxiv.org/pdf/2002.01407.pdf,https://youtu.be/g2yRUoPK40c,,,koopcontrol
 D. Bruder,TRUE,robosoft2020,Leveraging Data and the Koopman Operator to Build Control-oriented Models of Soft Robots,Modeling Soft Robots: A Discussion on Capabilites and Limitations of Numerous Techniques,2020,04_Presentation,,,,,
 "D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,tro2020,Data-driven Control of Soft Robots Using Koopman Operator Theory,IEEE Transactions on Robotics (TRO),2020,01_Journal,https://ieeexplore.ieee.org/document/9277915,https://www.youtube.com/watch?v=1-XSDGHKous,"""@ARTICLE{9277915,
   author={D. {Bruder} and X. {Fu} and R. B. {Gillespie} and C. D. {Remy} and R. {Vasudevan}},
@@ -79,12 +78,23 @@ D. Bruder,TRUE,robosoft2020,Leveraging Data and the Koopman Operator to Build Co
   number={},
   pages={1-14},
   doi={10.1109/TRO.2020.3038693}}""",,koopcontrol
-"D. Bruder, X. Fu, and R. Vasudevan",TRUE,ral2021,Advantages of Bilinear Koopman Realizations for the Modeling and Control of Systems with Unknown Dynamics,IEEE Robotics and Automation Letters,2021,01_Journal,https://ieeexplore.ieee.org/document/9384174,https://youtu.be/F-vJoBbAdJE,"""@ARTICLE{9384174,
-author={D. {Bruder} and X. {Fu} and R. {Vasudevan}},
-journal={IEEE Robotics and Automation Letters}, 
-title={Advantages of Bilinear Koopman Realizations for the Modeling and Control of Systems With Unknown Dynamics}, 
-year={2021},
-volume={6},
-number={3},
-pages={4369-4376},
-doi={10.1109/LRA.2021.3068117}}""",,koopcontrol
+"D. Bruder, X. Fu, and R. Vasudevan",TRUE,icra-ral2021,Advantages of Bilinear Koopman Realizations for the Modeling and Control of Systems with Unknown Dynamics,IEEE Robotics and Automation Letters,2021,01_Journal,https://ieeexplore.ieee.org/document/9384174,https://youtu.be/F-vJoBbAdJE,"""@article{bruder2021advantages,
+  title={Advantages of bilinear koopman realizations for the modeling and control of systems with unknown dynamics},
+  author={Bruder, Daniel and Fu, Xun and Vasudevan, Ram},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={3},
+  pages={4369--4376},
+  year={2021},
+  publisher={IEEE}
+}""",,koopcontrol
+"D. Bruder, X. Fu, R. B. Gillespie, C. D. Remy, and R. Vasudevan",TRUE,iros-ral2021,Koopman-based Control of a Soft Continuum Manipulator Under Variable Loading Conditions,IEEE Robotics and Automation Letters,2021,01_Journal,https://ieeexplore.ieee.org/document/9477047,https://youtu.be/KZo8-bKJksY,"""@article{bruder2021koopman,
+  title={Koopman-based control of a soft continuum manipulator under variable loading conditions},
+  author={Bruder, Daniel and Fu, Xun and Gillespie, R Brent and Remy, C David and Vasudevan, Ram},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={4},
+  pages={6852--6859},
+  year={2021},
+  publisher={IEEE}
+}""",,koopcontrol

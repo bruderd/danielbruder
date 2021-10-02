@@ -17,7 +17,7 @@ permalink: /research/
         <p>
           {{ project.description }}
           {% for paper in site.data.publications %}
-            {% if paper.category == project.category %}[<a href="{{ paper.url }}" target="_blank">{{ paper.Tag }}</a>]{% endif %}
+            {% if paper.category == project.category and paper.Show == "TRUE" %}[<a href="{{ paper.url }}" target="_blank">{{ paper.Tag }}</a>]{% endif %}
           {% endfor %}
         </p>
       </div>
@@ -33,7 +33,7 @@ permalink: /research/
         <p>
           {{ project.description }}
           {% for paper in site.data.publications %}
-            {% if paper.category == project.category %}[<a href="{{ paper.url }}" target="_blank">{{ paper.Tag }}</a>]{% endif %}
+            {% if paper.category == project.category and paper.Show == "TRUE" %}[<a href="{{ paper.url }}" target="_blank">{{ paper.Tag }}</a>]{% endif %}
           {% endfor %}
         </p>
       </div>
