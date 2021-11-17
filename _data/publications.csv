@@ -98,3 +98,4 @@ D. Bruder,TRUE,robosoft2020,Leveraging Data and the Koopman Operator to Build Co
   year={2021},
   publisher={IEEE}
 }""",,koopcontrol
+"D. Bruder, R. J. Wood",TRUE,icra-ral2022,The Chain-link Actuator: Exploiting the Bending Stiffness of McKibben Artificial Muscles to Achieve Larger Contraction Ratios,IEEE Robotics and Automation Letters,2022,01_Journal,,,,Accepted,actuators
