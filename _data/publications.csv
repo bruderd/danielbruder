@@ -108,3 +108,11 @@ D. Bruder,TRUE,robosoft2020,Leveraging Data and the Koopman Operator to Build Co
   year={2021},
   publisher={IEEE}
 }""",,actuators
+"Y. J. Martin, D. Bruder, R. J. Wood",TRUE,iros-2022,A Proprioceptive Method for Soft Robots Using Inertial Measurement Units,IEEE International Conference on Intelligent Robots and Systems (IROS),2022,02_Conference,https://ieeexplore.ieee.org/document/9982185,,"""@inproceedings{martin2022proprioceptive,
+  title={A Proprioceptive Method for Soft Robots Using Inertial Measurement Units},
+  author={Martin, Yves J and Bruder, Daniel and Wood, Robert J},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9379--9384},
+  year={2022},
+  organization={IEEE}
+}""",,sensors
